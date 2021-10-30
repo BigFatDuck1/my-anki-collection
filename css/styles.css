@@ -81,7 +81,7 @@ a, a:visited {
 
 /* Giant icon (slides) */
 .giant-icon {
-    font-size: 18rem;
+    font-size: 15rem;
 } 
 
 /* Slides heading space */
@@ -244,4 +244,8 @@ a, a:visited {
 
 .card_actions {
     margin: 2px;
+}
+
+.blank-space {
+    padding: 5%;
 }
