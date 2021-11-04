@@ -247,5 +247,6 @@ a, a:visited {
 }
 
 .blank-space {
-    padding: 5%;
+    padding: 1%;
+    background-color: rgb(206, 206, 206);
 }
