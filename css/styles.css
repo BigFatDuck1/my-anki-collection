@@ -5,16 +5,22 @@ body {
     font-weight: 400;
 }
 
+/* Image */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Navbar */
 .nav-item {
-    font-size: 1.25em;
+    font-size: 130%;
 }
 
 /* Banner */
 .big_title {
     font-family: "jost", sans-serif;
     font-weight: 700;
-    font-size: 4.5rem;
+    font-size: 450%;
     text-align: center;
 }
 
@@ -249,4 +255,14 @@ a, a:visited {
 .blank-space {
     padding: 1%;
     background-color: rgb(206, 206, 206);
+}
+
+@media only screen and (max-width: 768px) {
+    /* Mobile */
+    img {
+        width: 250px;
+    }
+    body {
+        font-size: 0.25rem;
+    }
 }
